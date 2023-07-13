@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200;300;400&display=swap" rel="stylesheet" />
+  <title>Pig Dice</title>
+</head>
+
+<body>
+  <button id="roll-dice">Roll Dice</button>
+  <button id="hold">Hold</button>
+  <button id="add-player">Add Player</button>
+
+  <div class="container">
+    <h1>Player 1</h1>
+    <div class="score-container">
+      <h1 id="player1-current-score">Current Score:</h1>
+      <h1 id="current-score"></h1>
+    </div>
+
+    <div class="score-container">
+      <h1>Total Score:</h1>
+      <h1 id="total-score"></h1>
+
+      <div class="hidden" id="player2">
+        <h1>Player 2</h1>
+        <div class="score-container">
+          <h1>Current Score:</h1>
+          <h1 id="current-score"></h1>
+          <div class="score-container">
+            <h1>Total Score:</h1>
+            <h1 id="total-score">Total Score</h1>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+</body>
+
+</html>
